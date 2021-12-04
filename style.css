@@ -1,0 +1,129 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+main{
+ margin: auto;
+ text-align: center;
+ background-color:#bcbdc0;
+ background-image: url('https://img.freepik.com/free-photo/painted-grey-background-with-metal-texture_125540-779.jpg?size=626&ext=jpg');
+ background-size: cover; 
+ padding: 20px;   
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+
+article{
+ background-color: #822166;
+ additive-symbols: 370px;
+ margin: auto;
+ border-radius: 15px ;
+ border: 4px solid #b181b1; 
+ width: 350px;
+ height:100%;  
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+h1{
+ background-color: rgba(188, 189, 192, 0.356); 
+ color: #162521;
+ border-radius: 15px 15px 0 0;
+ padding: 5px;
+ margin-bottom: 20px;
+ box-shadow: 1px 1px 0px 1px #fdfffc09;
+ text-shadow: 2px 3px 3px #fdfffcc4;
+ font-family: cursive;
+ letter-spacing: 1px;
+ font-weight: bold;
+ font-size: 1.1em;
+}
+
+label{
+ color: #fdfffc;
+ font-family: cursive;
+ width: 90px;
+ margin: 2px; 
+ font-size: 13px;
+ text-align: center;
+}
+
+.escolha{
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+} 
+
+form1{
+ display: center;
+ width: 100%;
+}
+
+.formdiv{
+ border:2px solid #b181b1;
+ border-radius: 10px;
+ margin: 8px;
+ padding: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+}
+
+input{
+ border-radius: 6px;
+ margin-bottom: 5px;
+}
+
+.formdiv:hover{
+ border: 2px solid #2FDA3D; 
+}
+
+body header{
+ background-color: #162521;
+ grid-area: header;
+}
+
+body footer{
+ background-color: #2FDA3D ;
+ grid-area: footer; 
+}
+
+.botao:hover {
+ background-color: #162521;
+ border: 2px solid #fdfffc;
+}
+
+.botao {
+ background: #2FDA3D; 
+ border-radius: 10px; 
+ padding: 15px; 
+ cursor: pointer; 
+ color: #fdfffc; 
+ border: 2px 0 0 ; 
+ font-size: 16px;
+ margin: 10px;
+ font-weight: bolder;
+ text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+a{
+ border: 2px solid #2FDA3D;
+}
+
+.lab{
+ margin-left: 15px;
+}
+
+.form{
+ display: center; 
+}
+
+
+// paleta de cores https://coolors.co/2fda3d-162521-822166-b181b1-fdfffc-bcbdc0
